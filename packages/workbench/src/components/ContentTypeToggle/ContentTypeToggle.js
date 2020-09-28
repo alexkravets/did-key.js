@@ -3,7 +3,7 @@ import React from "react";
 import ToggleButton from "@material-ui/lab/ToggleButton";
 import ToggleButtonGroup from "@material-ui/lab/ToggleButtonGroup";
 
-export default function ToggleButtons({ onClick }) {
+export function ContentTypeToggle({ onClick }) {
   const [alignment, setAlignment] = React.useState("left");
 
   const handleAlignment = (event, newAlignment) => {

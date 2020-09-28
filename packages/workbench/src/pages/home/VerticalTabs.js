@@ -7,7 +7,7 @@ import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
-import ContentTypeToggle from "./ContentTypeToggle";
+import { ContentTypeToggle } from "../../components/ContentTypeToggle";
 import { DIDDocumentPreview, JSONEditor } from "@transmute/material-did-core";
 
 import {
